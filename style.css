@@ -38,6 +38,15 @@ nav {
     margin-right: 20px;
 }
 
+.nav-section-2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-section-2 a:hover {
+    color: #e10903;
+}
+
 main {
     display: flex;
     justify-content: flex-start;
@@ -60,16 +69,16 @@ main {
 }
 
 .sidebar i:hover {
-    color: #5e6c9b;
+    color: #e10903;
 }
 
 .hero {
-    width: 70%;
-    height: 70%;
-    background: rgb(236, 234, 244);
+    width: 75%;
+    height: 75%;
+    background: rgba(236, 234, 244, 0.98);
     position: absolute;
-    top: 20%;
-    left: 20%;
+    top: 15%;
+    left: 15%;
     display: flex;
     border-radius: 3px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.162);
@@ -86,6 +95,11 @@ main {
     align-items: center;
     justify-content: center;
     margin: 0 20px;
+}
+
+.hero img {
+    height: 90%;
+    width: auto;
 }
 
 .hero div:last-child {
