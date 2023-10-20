@@ -152,3 +152,38 @@ main {
     text-align: center;
     padding: 20px;
 }
+
+/* Experience page */
+.experience-body {
+    background-image: url("images/backgroundExperience.jpg");
+    background-size: cover;
+}
+
+.experience-hero {
+    width: 75%;
+    height: 75%;
+    background: rgba(236, 234, 244, 0.98);
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    display: flex;
+    border-radius: 3px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.162);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding: 20px;
+}
+
+.grid > div {
+    background-color: rgba(0, 0, 0, 0.068);
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
