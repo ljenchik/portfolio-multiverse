@@ -116,3 +116,39 @@ main {
     text-align: center;
     font-family: sans-serif;
 }
+
+/* Bio page */
+.bio-body {
+    background-image: url("images/backgroundBio.jpg");
+    background-size: contain;
+}
+
+.bio-hero {
+    width: 75%;
+    height: 75%;
+    background: rgba(236, 234, 244, 0.98);
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    display: flex;
+    border-radius: 3px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.162);
+}
+
+.bio-hero div {
+    width: 50%;
+    border-right: 3px solid rgba(0, 0, 0, 0.23);
+}
+
+.bio-hero div:last-child {
+    border-right: none;
+}
+
+.bio-hero div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 20px;
+}
