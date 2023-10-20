@@ -121,6 +121,14 @@ main {
     font-family: sans-serif;
 }
 
+footer {
+    background-color: #e10a03fb;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+}
+
 /* Bio page */
 .bio-body {
     background-image: url("images/backgroundBio.jpg");
